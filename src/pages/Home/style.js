@@ -20,6 +20,18 @@ export const MainContent = styled.main`
     margin-top: 0;
     border: none;
     box-shadow: 1px 4px 5px 3px rgba(0, 0, 0, 0.75);
+    animation: 2s formInit;
+  }
+
+  @keyframes formInit {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
   }
 `;
 
@@ -38,6 +50,17 @@ export const DivGif = styled.div`
     color: white;
   }
 
+  @keyframes formInit {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
   div > h2 {
     font-size: 27px;
     max-width: 400px;
@@ -46,6 +69,7 @@ export const DivGif = styled.div`
     margin-bottom: 3%;
     font-family: "Nunito";
     color: black;
+    animation: 2s formInit;
   }
 
   div > span {
@@ -59,6 +83,7 @@ export const DivGif = styled.div`
     text-align: justify;
     color: black;
     text-shadow: 1px 1px 0px rgba(0, 0, 0);
+    animation: 2s formInit;
   }
 
   .typical {
@@ -66,6 +91,7 @@ export const DivGif = styled.div`
     font-family: "Nunito";
     font-weight: bold;
     color: black;
+    animation: 2s formInit;
   }
 
   .download-button {
