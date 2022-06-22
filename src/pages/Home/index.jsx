@@ -3,6 +3,7 @@ import working from "../../assets/imgs/working.gif"
 import codewarsIcon from "../../assets/imgs/codewarsIcon.png"
 import githubIcon from "../../assets/imgs/githubIcon.png"
 import linkedinIcon from "../../assets/imgs/linkedinIcon.png"
+import gmailIcon from "../../assets/imgs/gmail.png"
 import MaicelJuniorCV from "../../assets/pdfs/MaicelJuniorCV.pdf"
 import Typical from 'react-typical'
 import { Contacts, Container, DivContact, DivGif, MainContent } from "./style";
@@ -36,6 +37,10 @@ const Home = () => {
                 <DivContact>
                     <Contacts href="https://github.com/maiceljunior" target="_blank">
                         <img src={githubIcon} alt="GitHub" />
+                    </Contacts>
+
+                    <Contacts href="mailto:junioraraujc@gmail.com" target="_blank" rel='noopener noreferrer'>
+                        <img src={gmailIcon} alt="Gmail" />
                     </Contacts>
 
                     <Contacts href="https://www.linkedin.com/in/maiceljunior/" target="_blank">

@@ -4,6 +4,7 @@ import MenuIcon from "@mui/icons-material/Menu"
 import codewarsIcon from "../../assets/imgs/codewarsIcon.png"
 import githubIcon from "../../assets/imgs/githubIcon.png"
 import linkedinIcon from "../../assets/imgs/linkedinIcon.png"
+import gmailIcon from "../../assets/imgs/gmail.png"
 
 import { Anchor, Aside, Box, Img, LinkStyle } from './style';
 import { useState } from 'react';
@@ -24,8 +25,6 @@ const NavBar = () => {
                         <LinkStyle to="/">Pagina Inicial</LinkStyle>
                         <LinkStyle to="/sobre">Sobre Mim</LinkStyle>
                         <LinkStyle to="/projetos">Projetos</LinkStyle>
-                        <LinkStyle to="/certificados">Certificados</LinkStyle>
-                        <LinkStyle to="/contato">Fale Comigo</LinkStyle>
                     </Stack>
 
                     <Stack mt={5} spacing={3} bgcolor="#e5e5e5">
@@ -36,6 +35,10 @@ const NavBar = () => {
 
                         <Anchor href="https://www.linkedin.com/in/maiceljunior/" target="_blank">
                             <Img src={linkedinIcon} alt="Linkedin" />
+                        </Anchor>
+
+                        <Anchor href="mailto:junioraraujc@gmail.com" target="_blank" rel='noopener noreferrer'>
+                            <Img src={gmailIcon} alt="Gmail" />
                         </Anchor>
 
                         <Anchor href="https://www.codewars.com/users/JuniorAraujoC" target="_blank">
