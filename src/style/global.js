@@ -22,6 +22,14 @@ export default createGlobalStyle`
         text-decoration: none;
     }
 
+    .Toastify__progress-bar-theme--light {
+        background: var(--black);
+    }
+
+    .toastify-color-progress-error{
+        background-color: #EDEDED;
+    }
+
     :root{
         --black: #000;
         --white: #fff;

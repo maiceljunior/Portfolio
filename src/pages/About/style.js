@@ -310,11 +310,11 @@ export const SelectAbout = styled.div`
   }
 
   button:nth-child(1):hover span {
-    background: #569cd6;
+    background: #515151;
   }
 
   button:nth-child(2):hover span {
-    background: #569cd6;
+    background: #515151;
   }
 
   .about {
